@@ -1,0 +1,308 @@
+*{
+	
+}
+body{
+	background-color: #252a27;
+	color: #EEEEEE;
+
+}
+hr{
+	border-color: #100010;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	width: 90%;
+	margin-left: 5%;
+	border-width: 2px;
+
+}
+h1{
+	color: #24bf52;
+	margin-left: 90px;
+	padding: 0px;
+	margin-bottom:0px;
+
+
+}
+p{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	width: 100%;
+	min-width: 100px;
+	font-size: 16px;
+}
+h1.title1{
+	display: inline-block;
+	font-family: 'Montserrat', Sans-serif;
+	text-transform: none;
+	line-height: 60px;
+	margin-top: 40px;
+}
+h2.title1{
+	display: inline-block;
+	font-family: 'Montserrat', Sans-serif;
+	text-transform: none;
+	line-height: 60px;
+	font-size: 30px;
+	color: #FFF;
+	margin-top: 40px;
+}
+.main-menu a{
+	font-family: 'Montserrat-Extra-Light', Sans-serif;
+
+	text-transform: lowercase;
+}
+.main-menu li{
+	margin-left: 10px;
+}
+.Name{
+	color: #DFDFDF
+}
+.spacer{
+	margin-left: 13px;
+	font-size: 22px;
+	display: inline;
+	vertical-align: -2px;
+
+}
+#projects{
+	background-color: #151a17;
+	width: 86%;
+	height:100%;
+	margin-right:7%;
+	margin-left: 7%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	padding: 0%;
+
+}
+
+.banner{
+	width: 90%;
+	margin-right:5%;
+	margin-left: 5%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	height: 300px;
+}
+.left{
+	margin-right: 5%;
+
+
+	
+}
+.right{
+	
+	margin-left: 5%;
+
+}
+.image{
+	width: 60%;
+	margin-top: 0px;
+	align-self:center;
+	min-width: 300px;
+
+	
+}
+.iFill{
+	width: 100%;
+}
+.image p{
+	width: auto;
+	color: #AAA;
+	border: 1px solid #333;
+	position: relative;
+	bottom: 5px;
+	margin: 0;
+}
+.half p{
+	width: auto;
+	color: #AAA;
+	border: 1px solid #333;
+	position: relative;
+	bottom: 5px;
+	margin: 0;
+}
+.third{
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5%;
+	vertical-align: bottom;
+	
+}
+.half{
+	width: 40%
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 2%;
+	display: inline-block;
+}
+.III{
+	align-self: center;
+
+}
+.no-bottom{
+	margin-bottom: 0;
+}
+.no-top{
+	margin-top: 0;
+}
+.end{
+	margin-right: 0px;
+}
+
+.image-full{
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.card{
+	position: static;
+	display: flex;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	min-height: 10px;
+	width:90%;
+ 	margin-right: 5%;
+ 	margin-left: 5%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	vertical-align: 
+	
+}
+.text{
+	height: 100%;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+	width: 30%;
+	white-space: normal;
+	
+}
+.fullw{
+	width: 100%
+
+}
+.sectionH{
+	font-size: 24px;
+	margin-bottom: 0px;
+	width: 20px;
+	margin-right: 0;
+	display: inline;
+}
+.center{
+	font-family: 'Montserrat-Black';
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	line-height: 32px;
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.slideshow{
+	border:2px;
+	border-color: #EEEEEE;
+}
+.airRight{
+	position: relative;
+	display: inline;
+	width: 0px;
+	left: 75%;
+
+	font-size: 30px;
+	font-family: 'Montserrat-Black';
+}
+.larger{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* MODAL STUFF */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 767px){
+    .modal-content {
+        width: 100%;
+    }
+}

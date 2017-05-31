@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="de">  <!--<![endif]-->
+<head>
+
+  <!-- META DATA -->
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta charset="UTF-8">
+  <title>Rudolf Newman</title>
+    <meta name="description" content="A Template by RocknRolla Designs"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP"/>
+    <meta name="author" content="RocknRolla Designs"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- GOOGLE WEB FONTS INCLUDE -->
+  <link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- JARVIS THEME STYLESHEETS -->
+     
+  <link rel="stylesheet" href="css/skeleton.css" type="text/css">
+  <link rel="stylesheet" href="css/reset.css" type="text/css">    
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/social.css" type="text/css">             
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css"> 
+ <link rel="stylesheet" href="css/project.css" type="text/css"> 
+  <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen"/><!-- PrettyPhoto -->  
+  <link rel="stylesheet" href="css/font-awesome.css" type="text/css"/><!-- PrettyPhoto -->   
+  <link rel="stylesheet" href="css/shortcodes.css" type="text/css"/>    
+  <link rel="stylesheet" href="css/media.css"><!-- Media Queries -->
+         
+    
+  <link id="layout_color" href="css/light.css" rel="stylesheet" type="text/css"/>  
+    <link id="primary_color_scheme" href="css/colors/green.css" rel="stylesheet" type="text/css"/>      
+       
+    <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+       
+    
+</head>
+
+<body class="onepage" data-spy="scroll" data-target=".navigation">
+ <div id="load"></div>
+ 
+
+      
+    
+    <!-- START PAGE WRAP -->    
+    <div class="page-wrap">
+    
+    
+    <!-- START NAVIGATION -->
+    <nav class="light sticky-nav navigation">
+     <!-- START CONTAINER --> 
+      <div class="container clearfix">      
+          <div class="four columns">      
+              <!-- START LOGO --> 
+              <div class="logo large">
+               <a href="#home" class="Name">Rudolf Newman</a>
+              </div>
+              <!-- END LOGO -->     
+          </div><!-- END FOUR COLUMNS -->   
+          
+                   
+          <div class="twelve columns">                
+              <!-- START NAVIGATION MENU ITEMS -->
+              <ul class="main-menu large nav" id="nav">
+                  <li><a href="index.html#home">Home</a></li><div class="spacer">//</div>              
+                  <li><a href="index.html#projects">Projects</a></li><div class="spacer">//</div> 
+                  <li><a href="index.html#about">About</a></li><div class="spacer">//</div> 
+                  <li><a href="index.html#about" >Contact</a></li>
+              </ul>
+              <!-- END NAVIGATION MENU ITEMS -->        
+          </div><!-- END TWELVE COLUMNS --> 
+      </div><!-- END CONTAINER -->  
+    </nav>
+    <!-- END NAVIGATION -->
+
+  <!-- START HOME SECTION -->    
+  <div id="projects" >
+    <h1 class= "title1">Piquote</h1> 
+    <hr>
+
+    <div class="card">
+      <div class="center">
+        
+          
+          Update a web application that takes images and quotes from a web article and makes them into a single photo for social media.
+
+      </div>
+    </div>
+    <div class="card">
+      
+      <div class="text fullw">
+        <p class="sectionH"> Overview:</p>
+      <p class="larger">Piquote prompts the user for a url of a web article. It finds the best quotes and pictures from the page by parsing the html. It gives the user a choice of picture and quote combinations, then outputs a single image of their selection.
+
+        </p>
+      
+      </div>
+     
+    </div>
+    <div class="card no-bottom">
+      <div class="third" >
+        <img src="images/piquote/original_fix.png" class = "III expandable">
+      </div>
+      <div class="third">
+      <img src="images/piquote/arch_fix.png" class = "III expandable">
+      </div>
+      <div class="third end">
+      <img src="images/piquote/final.jpg" class = "III expandable">
+      </div>
+      
+    </div>
+    <div class="card no-top">
+      <div class="third">
+        <p class="sectionH"> Initial:</p>
+        <div class="airRight">></div>
+        <p >While the initial project was functional, it only provided the absolute basics. Sentences were retrieved by a very inconsistent tokenizer, and their quality was determined purely by the amount of punctuation. Images were not retrieved at all, and the composite images at the end were only html displays, not actual image files.
+
+        </p>
+
+      </div>
+      <div class="third">
+        
+        <p class="sectionH"> Work:</p>
+        <div class="airRight">></div>
+        <p >Using python, we built a system that grades selected sentences based on keywords and punctuation and takes relevant images from the site.
+        </p>
+
+      </div>
+      <div class="third end">
+        
+        <p class="sectionH"> Product:</p>
+        <p >Our project allows users to select one of a combination of quotes and pictures, and receive an image corresponding to their choice. Our quotes have fewer punctuation flaws and are similar to quotes that humans might select while reading the article.
+
+        </p>
+
+      </div>
+    </div>
+    <hr>
+    <div class="card">
+      <div class="left text">
+        <p class="sectionH"> Focus:</p>
+      
+      <p>
+        Our project centered around higher quality sentence and image selection. I focused on improving the quality of the results delivered, while the other members worked on the design and how to measure the desired results. The team updated the presentation of the website, the prioritization of the quotes, and the way in which the quotes were graded.
+
+      </p>
+      </div>
+        <div class= "right image">
+        <img src="images/piquote/use.png" class="">
+        <p>A sample output screen from our final iteration</p>
+      </div>
+              
+    </div>
+    <div class="card">
+      <div class= "left image">
+        <img src="images/piquote/repo.png" class="">
+        <p>A sample of the word repository used for grading sentances</p>
+      </div>
+      <div class="right text">
+        <p class="sectionH"> Solution:</p>
+      <p >The grading is done through a compiled database of keywords. The presence of these words is one of the factors used to weight the sentences.
+        </p>
+      <p >  
+       I wrote code to completely separate sentences and make a list of proper nouns (based of occurrences of capital letter). It also stitches quotes together that span multiple sentences. Images are gathered from the sites by filtering out ones whose parent containers have instances of a select few classes or ids.
+      </p>
+      </div>
+    </div>
+    
+    <div class="card">
+      
+      <div class="text fullw">
+        <p class="sectionH"> Future:</p>
+      <p >Due to constraints of time and technology, we were unable to create some of the features we wanted to. The next step would be creating a tweet for the user with the picture automatically. The quote selection could also be further refined with more keywords or a more nuanced approach.
+
+        </p>
+      
+      </div>
+     
+    </div>
+    <div class="card">
+      <img src="images/piquote/Sketch11_fix.jpg" class="half III expandable">
+      <img src="images/piquote/Sketch12_fix.jpg" class="half III end expandable">
+
+    </div>
+    <img class= "image-full" src= "images/piquote/Piquote_Name.png">
+  </div>
+
+  <!-- END HOME SECTION -->
+  
+  
+  
+  
+   </div><!-- END PAGE WRAP --><div id="back-to-top"><a href="#">Back to Top</a></div>
+   
+
+<div id="Modal1" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="imgM">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+          
+
+  <!-- JARVIS THEME SCRIPTS -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>         
+    <!--<script type="text/javascript" src="js/jquery.tweet.js"></script>-->         
+    <script type="text/javascript" src="js/jquery.form.js"></script>
+  <script type="text/javascript" src="js/jquery.queryloader2.js"></script>        
+    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>  
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>  
+    <script type="text/javascript" src="js/jquery.appear.js"></script>  
+    <script type="text/javascript" src="js/jquery.slabtext.min.js"></script>   
+    <script type="text/javascript" src="js/jquery.fittext.js"></script>   
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="js/jquery.sticky.js"></script>
+  <script type="text/javascript" src="js/selectnav.min.js"></script>    
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>   
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>    
+    <script type="text/javascript" src="js/isotope.js"></script>   
+    <script type="text/javascript" src="js/bootstrap-modal.js"></script>   
+    <script type="text/javascript" src="js/shortcodes.js"></script>      
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/modalPers.js"></script>               
+                   
+    
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" type="text/css" href="css.css"></head>
+<body>
+	<div id="center">
+		<h1 class= "title1">Piquote</h1> <img id="logo" src ="Piquote sym.png">
+		<hr>
+		
+		<div class="card">
+			<div class="left text">
+			<p >Piquote is an online application that parses webpages and produces an image with a relevant quote from the article imbedded in it. It works using Flask and a python text parser.
+			</p>
+			
+			<p >When the project first started, we were given the skin of the application with only the basic implementations of text parsing and sentence weighting 
+				</p>
+			</div>
+				<img src="arch.png" class = "right image">
+							
+		</div>
+		<div class="card">
+			<img src="repo.png" class="left image">
+			<div class="right text">
+			<p >The focus of our project centered around higher quality sentence and image selection. I wrote a text parser that broke up the paragraphs into sentences and merged quotes in the text based on punctuation patterns. These Strings were then weighted based on many factors for use.
+				</p>
+			<p >	
+			To the left is a sample of the repository of words selected by team members. The presence of these words was one of the factors used to weight the sentences.
+			</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="left text">
+			<p >Image selection was done with a DOM parser, and used the regular structure of news websites to filter out images for other articles or in advertisements by the tags of their parent containers.
+
+			</p>
+			
+			<p>The end result allowed users to select one of a combination of quotes and pictures, and receive an image of their choosing.
+
+				</p>
+			</div>
+			<img src="Use.png" class = "right image">				
+		</div>
+	</div>
+</body>
+</html>
+
