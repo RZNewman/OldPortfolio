@@ -76,7 +76,7 @@
     width: 80%;
     margin: 20px 10%;}
 
-    #projects{
+    #projects-page{
             width: 86%;
         height:100%;
     margin-right:7%;
@@ -198,7 +198,7 @@
         .project{width: 80%}
         .videobox{width: 100%; margin: 0;}
 
-        #projects{
+        #projects-page{
             width: 100%;
             margin:0;
         }
