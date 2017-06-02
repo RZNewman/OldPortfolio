@@ -67,13 +67,7 @@ h2.title1{
 }
 #projects{
 	background-color: #151a17;
-	width: 86%;
-	height:100%;
-	margin-right:7%;
-	margin-left: 7%;
-	margin-top: 0%;
-	margin-bottom: 0%;
-	padding: 0%;
+	
 
 }
 
@@ -210,13 +204,14 @@ h2.title1{
 	border-color: #EEEEEE;
 }
 .airRight{
-	position: relative;
+	
 	display: inline;
-	width: 0px;
-	left: 75%;
-
+	width: 5%;
+	vertical-align: middle;
+	text-align: center;
 	font-size: 30px;
 	font-family: 'Montserrat-Black';
+	margin-top: 5px;
 }
 .larger{
 	font-size: 20px;

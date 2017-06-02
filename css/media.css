@@ -276,6 +276,18 @@ and (orientation : portrait) {
 		font-size:20px;
 	}
 
+	.airRight{
+		text-indent: -2000px;
+	}
+	.left {
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.right{width: 100%;
+	margin-right: 0;
+		margin-left: 0;}
+
 }
 @media only screen and (max-width: 479px) {
 
