@@ -121,9 +121,11 @@
 
 .contact p{
 	margin-bottom: 15px;
+
 }
 .contact a{
-
+	word-wrap: break-word;
+	word-break: break-all;
 }
 .project-title{
 	font-family: 'Montserrat-Black', Sans-serif;

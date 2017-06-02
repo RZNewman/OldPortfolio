@@ -357,4 +357,7 @@ and (orientation : portrait) {
 		width: 65%;
 	}
 
+	.title{
+		top:270px;
+	}
 }
