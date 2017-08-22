@@ -34,13 +34,13 @@
 }
 .pic{
 	display: inline-block;
-	width: 40%;
+
 	margin-left: 0px;
 	margin-right: 2%;
 	height: auto;
 }
 .abouttxt{
-	width: 40%;
+
 	color: #FFF;
 	display: inline-block;
 	text-align: left;
@@ -124,7 +124,7 @@
 
 }
 .contact a{
-	word-wrap: break-word;
+	word-wrap:normal;
 	word-break: break-all;
 }
 .project-title{

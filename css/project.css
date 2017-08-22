@@ -37,6 +37,7 @@ h1.title1{
 	text-transform: none;
 	line-height: 60px;
 	margin-top: 40px;
+	
 }
 h2.title1{
 	display: inline-block;
@@ -46,6 +47,7 @@ h2.title1{
 	font-size: 30px;
 	color: #FFF;
 	margin-top: 40px;
+
 }
 .main-menu a{
 	font-family: 'Montserrat-Extra-Light', Sans-serif;
