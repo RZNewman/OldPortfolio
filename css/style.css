@@ -547,7 +547,7 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 	overflow:hidden;
 }
 .parallax .parallax-content, .parallax .overlay {
-	height: 400px;
+	height: 402px;
 }
 .parallax-content {
 	display: table-cell;

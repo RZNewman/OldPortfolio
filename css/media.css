@@ -339,7 +339,7 @@ and (orientation : portrait) {
 	.parallax,  
 	.parallax .parallax-content,  
 	.parallax .overlay {
-		height: 580px;
+		height: 582px;
 	}
 
 	#project-navigation {
